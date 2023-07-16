@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: rgb(37, 161, 239);
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  color: rgb(37, 161, 239);
+}
+input {
+  padding: 10px;
+  width: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  border: 1px solid rgb(37, 161, 239);
+  color: rgb(33, 120, 174);
+}
+.myPlans {
+  display: flex;
+  justify-content: space-around;
+}
+.added {
+  margin-left: 5px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  background-color: rgb(37, 161, 239);
+  width: 55px;
+  border-radius: 20px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+}
+.deleted {
+  margin-left: 5px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  background-color: palevioletred;
+  width: 55px;
+  border-radius: 20px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+}
+li {
+  list-style: none;
+  background-color: antiquewhite;
+  width: 330px;
+  font-size: 20px;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(33, 120, 174);
+  font-family: 'Dancing Script', cursive;
+}
+.crossed {
+  text-decoration: 2px red line-through;
+  /*für IOS:*/
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: red;
+  -webkit-text-decoration-thickness: 2px;
+}
