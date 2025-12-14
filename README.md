@@ -6,7 +6,7 @@
 2. erledigt (Click auf das Listenelement)
 
 3. gelöscht (Click auf Delete - alle Elemente werden gelöscht)
-##### *erstellt von Marina Seidel*
+
 
 
 
